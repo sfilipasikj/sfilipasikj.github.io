@@ -179,7 +179,7 @@ h3{
 }
 
 @media (max-width: 700px) {
-    .main1, .main2, .main3, header, body{
+    .main1, .main2, .main3, header, body, .message, .goBack{
         margin: 0;
         padding: 10px;
         width: 100vw;
@@ -288,12 +288,10 @@ h3{
         width: 92%;
     }
     .goBack{
-        margin: 20px 0 0 0;
-        padding: 0;
-        width: 96%;
+        margin-left: 10px;
     }
     .goBack button{
-        width: 49%;
+        width: 45%;
         font-size: 12px;
     }
 }
